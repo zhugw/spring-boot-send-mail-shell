@@ -1,3 +1,8 @@
 spring boot 创建一个脚本程序 用于发送邮件
 如
 sendemail [-from sender] -to receiver -subject 主题 [-body 正文] [-attach 附件]
+
+#生成可执行jar包
+mvn clean package
+#定义别名
+alias sendmail='/var/send-email-shell-0.0.1-SNAPSHOT.jar'

@@ -2,7 +2,7 @@ Usage:
 sendemail --help
 sendemail [-from sender] -to receiver -subject 主题 [-body 正文] [-attach 附件]
 
--from sender 默认为no-reply@helijia.com
+-from sender 默认为no-reply@foobar.com
 -to receiver 接收人 必填 多个的话可由逗号分隔
 -subject 主题 必填 如 "hello world"
 -body 正文 
